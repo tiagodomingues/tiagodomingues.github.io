@@ -1,3 +1,7 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -5,11 +9,12 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:               TD
+tagline:             'Sharing Knowledge...Sometimes'
+url:                 http://tiagodomingues.github.io
+paginate:            3
+baseurl:             "/"
+rss:                 atom.xml
 
 # Assets
 #
@@ -20,11 +25,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Tiago Domingues
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             tjdcdd@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/tiagodomingues/tiagodomingues.github.io
