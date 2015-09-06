@@ -14,8 +14,7 @@ relative_permalinks: true
 title:               TD
 tagline:             'Sharing Knowledge Sometimes'
 url:                 http://tiagodomingues.github.io
-paginate:            3
-baseurl:             ""
+paginate:            1
 rss:                 atom.xml
 
 # Assets
@@ -38,5 +37,6 @@ github:
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
-  Archive: '/archive/'
+  About: '/about'
+  Archive: '/archive'
   Feed: '/atom.xml'
