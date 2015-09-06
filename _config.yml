@@ -14,6 +14,7 @@ relative_permalinks: true
 title:               TD
 tagline:             'Sharing Knowledge Sometimes'
 url:                 http://tiagodomingues.github.io
+baseurl:             http://tiagodomingues.github.io/
 paginate:            1
 rss:                 atom.xml
 
