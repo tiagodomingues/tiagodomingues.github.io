@@ -1,3 +1,9 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+pygments:         true
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -9,7 +15,7 @@ title:               TD
 tagline:             'Sharing Knowledge...Sometimes'
 url:                 http://tiagodomingues.github.io
 paginate:            3
-baseurl:             "/"
+baseurl:             ""
 rss:                 atom.xml
 
 # Assets
@@ -29,3 +35,8 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/tiagodomingues/tiagodomingues.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:       
+  Archive: '/archive/'
+  Feed: '/atom.xml'
