@@ -12,7 +12,7 @@ relative_permalinks: true
 
 # Setup
 title:               TD
-tagline:             'Sharing Knowledge Sometimes'
+tagline:             
 url:                 http://tiagodomingues.github.io
 baseurl:             http://tiagodomingues.github.io/
 paginate:            1
